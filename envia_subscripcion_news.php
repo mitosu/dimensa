@@ -15,29 +15,16 @@
     </head>
     <body>
         <?php
-        $contacto;
         $email;
-        $mensaje;
         $msg;
 
         require("scripts/class.phpmailer.php");
         if (isset($_POST)) {
             $mail = new PHPMailer();
-            $contacto = filter_input(INPUT_POST, 'nombre', FILTER_SANITIZE_SPECIAL_CHARS);
             $email = filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL);
-            
-            $varfilename = $_FILES['userfile']['name'];
-            $varfilenametemp = $_FILES['userfile']['tmp_name'];
-            if($varfilename != ""){
-                $mail->addAttachment($varfilenametemp, $varfilename);
-            }
-
-            $mensaje = filter_input(INPUT_POST, 'mensaje', FILTER_SANITIZE_SPECIAL_CHARS);
 
             $msg = "";
-            $msg .= "Contacto : " . $contacto . "<br/>";
             $msg .= "Email: " . $email . "<br/>";         
-            $msg .= "Mensaje : " . $mensaje;
         }
 
         $dDate = date('Y-m-d');
@@ -53,13 +40,13 @@
 
         $mail->From = $enviainfo_from;
         $mail->FromName = "Dimensa S.L.";
-        $mail->AddAddress($enviainfo_to, "Mensaje Web | Recursos Humanos"); //Mail destino y además "máscara para la dirección".    
+        $mail->AddAddress($enviainfo_to, "Mensaje Web | Suscribirme a boletín de noticias"); //Mail destino y además "máscara para la dirección".    
         $mail->AddReplyTo("web@recogidas.biz", "Pes Systems"); //Permite hacer un reply a una dirección x.
 
         $mail->WordWrap = 50;    // set word wrap to 50 characters
         $mail->IsHTML(false);    // set email format to HTML
 
-        $mail->Subject = "Recursos Humanos - Curriculum Vitae";
+        $mail->Subject = "Marketing - Suscribirme";
         $mail->msgHTML($msg);
         //include ('cargarnbasewin.php');
 
@@ -68,7 +55,7 @@
             echo "Mailer Error: " . $mail->ErrorInfo;
             exit;
         }
-        header('Location: trabajar.php?mensaje="ok"');
+        header('Location: pruebas.php?mensaje="ok"');
         echo "El Mensaje fue enviado correctamente";
         ?>
     </body>

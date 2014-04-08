@@ -5,8 +5,36 @@
     Name: Miguel Angel Torres 
  */
 
-echo '<div id="servicio_local"></div><h3> <span class="label label-primary">'._EMP_SERV_LOCAL.'</span></h3>
-                            <p>Especialistas en reparto de todo tipo de mercancias, en Madrid y en toda la geografía nacional e islas.
-Tenemos una flota con cubicajes adaptados a las necesidades de los clientes, que facilitan el transporte de una manera rápida y económica para nuestros clientes.
-Confie en nuestra experiencia y profesionalidad, no se arrepentira.<br/>Mantenemos viva la idea original del sector. 
-Es decir el servicio inmediato urgente Madrid y alrededores con tiempos minimos de entrega y garantia de firmas y control sobre lo entregado.</p>';
+echo '<div id="servicio_local"></div><div></div><h3> <span class="label label-primary">'._EMP_SERV_LOCAL.'</span></h3>'
+        . ' <p>
+                                <table class="table table-bordered table-hover">
+                                    <tr>
+                                        <th class="active">Tipo de Servicio</th>
+                                        <th class="active">Tiempo de entrega</th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Servicio Moto
+                                        </td>
+                                        <td>
+                                            Entrega de cartas y sobres.
+                                        </td>
+                                    </tr>
+                                     <tr>
+                                        <td>
+                                            Servicio Furgoneta
+                                        </td>
+                                        <td>
+                                            Entregas de paquetes hasta 400kg.
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Servicio Furgón
+                                        </td>
+                                        <td>
+                                            Entregas de paquetes de más de 400kg y palets pequeños.
+                                        </td>
+                                    </tr>
+                                </table>                          
+</p>';

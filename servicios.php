@@ -45,6 +45,7 @@
             <div class="row">
                 <div class="col-md-9">
                     <!--About us-->
+                    <?php echo _TEXT_SERVICIO_MAIN?>
                     <?php include ('servicio_local.php');?>
                     <?php include ('servicio_nacional.php');?>
                     <?php include ('servicio_insular.php');?>

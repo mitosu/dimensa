@@ -45,6 +45,10 @@ define('_EMAIL_RECOGIDAS', '<a href="mailto:recogidas@pes-systems.net">dimensa@d
 define('_EMP_DP_CIUDAD','28027 Madrid');
 define('_EMP_CIF','B78909611');
 define('_EMP_CALLE',	'Vigen de la Paz, 14');
+define('_TEXT_SERVICIO_MAIN', '<p><h3><span class="label label-primary">Servicios</span></h3>Especialistas en reparto de todo tipo de mercancias, en Madrid y en toda la geografía nacional e islas.
+Tenemos una flota con cubicajes adaptados a las necesidades de los clientes, que facilitan el transporte de una manera rápida y económica para nuestros clientes.
+Confie en nuestra experiencia y profesionalidad, no se arrepentira.<br/>Mantenemos viva la idea original del sector. 
+Es decir el servicio inmediato urgente Madrid y alrededores con tiempos minimos de entrega y garantia de firmas y control sobre lo entregado.</p>');
 
 
 define('_EMP_MAPA', '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3036.8572375183007!2d-3.659522!3d40.43416!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422f4a7db92ff7%3A0x5ee4ba224e32ebed!2sDimensa!5e0!3m2!1ses!2ses!4v1396884765270" width="600" height="450" frameborder="0" style="border:0"></iframe>');
