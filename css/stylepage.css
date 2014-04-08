@@ -1,0 +1,104 @@
+
+/* 
+    Created on : 24-mar-2014, 20:59:50
+    Author     : Mitosu
+    Name: Miguel Angel Torres 
+*/
+
+body{
+    background-color: #363636;
+    font-family: Tahoma;
+    font-size: 12px;
+}
+
+#contenido{
+    background-color: #ffffff;
+    max-width: 980px;
+}
+
+#text-zona-clientes{
+    color: #7EB7FE;
+    font-family: serif;
+    font-size: large;
+}
+
+.menu_top{
+    font-family: Tahoma;
+    font-size: 12px;
+}
+
+.image_aling_text{
+    float: left;
+    margin-right: 5px;
+}
+
+.col-md-8 p{
+    text-align: justify;
+}
+
+.col-md-4 p{
+    text-align: justify;
+}
+
+#footer_web{
+    background-color: #2F6EB9;
+    color: #ffffff;
+}
+
+.links_footer a:link{
+    color: #ffffff;
+}
+
+.links_footer a:visited{
+    color: #66ccff;
+}
+
+.redes_sociales img{
+    width: 30px;
+    height: 30px;
+}
+
+.servicios_img{
+    font-family: Tahoma;
+    font-size: 12px;
+}
+
+.titulo_menu_destinos{
+    font-family: Tahoma;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.boletin{
+    font-family: Tahoma;
+    font-size: 11px;
+}
+
+@media (min-width: 1200px) {
+    #map{
+        max-width: 650px;
+        max-height: 450px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 979px){
+    #map{
+        max-width: 550px;
+        max-height: 350px
+        
+    }
+}
+
+@media (max-width: 767px) {
+    #map{
+        max-width: 450px;
+        max-height: 350px;
+    }
+}
+
+@media (max-width: 480px) {
+    #map{
+        width: 200px;
+        height: 200px;
+    }
+}
