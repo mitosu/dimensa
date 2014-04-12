@@ -57,7 +57,7 @@
                 </div>
                 <div class="col-md-3">
                     <!--Our locations-->
-                    <?php include ('destinos.php');?>
+                    <!--<?php include ('destinos.php');?>-->
                     <!--Newsletters-->
                     <?php include ('newsletter.php');?>
                 </div>

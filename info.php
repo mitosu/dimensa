@@ -30,7 +30,7 @@
                 Recaptcha.create("6LdIZvESAAAAAMvzK9XKazyoantAv1vg_KaPN-BY",
                         "recaptcha",
                         {
-                            theme: "blackglass"
+                            theme: "clean"
                         }
                 );
             }
@@ -178,7 +178,7 @@
                 </div>
                 <div class="col-md-3">
                     <!--Our locations-->
-<?php include ('destinos.php'); ?>
+<!---<?php include ('destinos.php'); ?>-->
                     <!--Newsletters-->
                 </div>
             </div>

@@ -1,11 +1,12 @@
-<?php
-
+<!--
 /* 
-    Created on : 09-Abril-2014, 13:09:50
+    Created on : 4-Abril-2014, 10:50:50
     Author     : Mitosu
     Name: Miguel Angel Torres 
  */
+-->
 
+        <?php
         include ('config.php');
         $email;
         $msg;
@@ -49,5 +50,3 @@
         }
         header('Location: pruebas.php?mensaje="ok"');
         
-
-

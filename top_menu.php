@@ -25,7 +25,9 @@ echo '<nav class="menu_top navbar navbar-default" role="navigation">
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Servicios <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="servicios.php#servicio_local">Servicio Local</a></li>
+                                    <li><a href="servicios.php#servicio_local">Servicio Moto</a></li>
+                                    <li><a href="servicios.php#servicio_local">Servicio Furgoneta</a></li>
+                                    <li><a href="servicios.php#servicio_local">Servicio Furgón</a></li>
                                     <li><a href="servicios.php#servicio_nacional">Servicio Nacional</a></li>
                                     <li><a href="servicios.php#servicio_insular">Servicio Insular</a></li>
                                     <li><a href="servicios.php#servicio_internacional">Servicio Internacional</a></li>

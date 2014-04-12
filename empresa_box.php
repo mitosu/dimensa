@@ -8,7 +8,7 @@
 
 echo '<div class="panel panel-primary">
                                 <div class="panel-heading">
-                                <h3 class="panel-title">Demotrans, S.L.</h3>
+                                <h3 class="panel-title">'._EMP_LEMA.'</h3>
                                  </div>
                                 <div class="panel-body">
                                       '._EMP_DT.'

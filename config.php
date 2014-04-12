@@ -21,8 +21,8 @@ define('_EMP_KEYWORDS', 'transporte madrid, empresa transporte madrid, mensajeri
 define('_EMP_TEL',	'91 326 32 40');
 define('_EMP_MOTO',	'Dimensa, S.L.');
 define('_EMP_TITLE', '<title>Dimensa | Mensajeros | Mensajerías | Courier | Transporte Urgente</title>');
-define('_EMP_MAILTO', '<a href="mailto:dimensa@dimensa.net">dimensa@dimensa.net</a>' );
-define('_EMP_MAIL_INFO', 'dimensa@dimensa.net ');
+define('_EMP_MAILTO', '<a href="mailto:trafico@dimensa.net">trafico@dimensa.net</a>' );
+define('_EMP_MAIL_INFO', 'trafico@dimensa.net ');
 define('_EMP_LEMA',	'Dimensa');
 define('_EMP_LEMA_EMPRESA', 'Quienes somos');
 define('_EMP_SERV_NACIONAL', 'Servicio Nacional');
@@ -39,16 +39,13 @@ define('_EMP_SKYPE', 'skype:pessystems?call');
 define('_EMP_EMPRESA','Dimensa, S.L.');
 define('_TEL_COMERCIAL', '91 326 32 40');
 define('_TEL_RECOGIDAS', '91 326 32 40');
-define('_EMP_MAIL','dimensa&#64;dimensa.net');
-define('_EMAIL_COMERCIAL', '<a href="mailto:comercial@pes-systems.net">dimensa@dimensa.net</a>');
-define('_EMAIL_RECOGIDAS', '<a href="mailto:recogidas@pes-systems.net">dimensa@dimensa.net</a>');
+define('_EMP_MAIL','trafico&#64;dimensa.net');
+define('_EMAIL_COMERCIAL', '<a href="mailto:comercial@pes-systems.net">trafico@dimensa.net</a>');
+define('_EMAIL_RECOGIDAS', '<a href="mailto:recogidas@pes-systems.net">trafico@dimensa.net</a>');
 define('_EMP_DP_CIUDAD','28027 Madrid');
 define('_EMP_CIF','B78909611');
 define('_EMP_CALLE',	'Vigen de la Paz, 14');
-define('_TEXT_SERVICIO_MAIN', '<p><h3><span class="label label-primary">Servicios</span></h3>Especialistas en reparto de todo tipo de mercancias, en Madrid y en toda la geografía nacional e islas.
-Tenemos una flota con cubicajes adaptados a las necesidades de los clientes, que facilitan el transporte de una manera rápida y económica para nuestros clientes.
-Confie en nuestra experiencia y profesionalidad, no se arrepentira.<br/>Mantenemos viva la idea original del sector. 
-Es decir el servicio inmediato urgente Madrid y alrededores con tiempos minimos de entrega y garantia de firmas y control sobre lo entregado.</p>');
+define('_TITULO_SERVICIOS_MAIN', '<h3> <span class="label label-primary">SERVICIOS</span></h3>');
 
 
 define('_EMP_MAPA', '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3036.8572375183007!2d-3.659522!3d40.43416!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422f4a7db92ff7%3A0x5ee4ba224e32ebed!2sDimensa!5e0!3m2!1ses!2ses!4v1396884765270" width="600" height="450" frameborder="0" style="border:0"></iframe>');
@@ -56,28 +53,28 @@ define('_EMP_MAPA', '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8
 define('_EMP_DT', '<b>Dimensa, S.L.<br> Virgen de la Paz,14<br>
 28027 Madrid</b><br><br style="line-height:7px">
 Teléfono: &nbsp; &nbsp; &nbsp;91 326 32 40<br>
-E-mail: <strong><a href="mailto:dimensa&#64;dimensa.net">dimensa&#64;dimensa.net</a></strong>');
+E-mail: <strong><a href="mailto:trafico&#64;dimensa.net">trafico&#64;dimensa.net</a></strong>');
 //IP Cliente
 $ip = $_SERVER["REMOTE_ADDR"];
 
- $mailreco_to = "dimensa@dimensa.net";
- $mailreco_from = "dimensa@dimensa.net";
+ $mailreco_to = "trafico@dimensa.net";
+ $mailreco_from = "trafico@dimensa.net";
 // $mailreco_subject="Solicitude de recolección desde la web ".$rnumserv ." Hr ".$horatoma;
  //$mailreco_body = $msg; 
  $mail_host     = "mail.dimensa.net";
- $mail_username = "dimensa@dimensa.net";
+ $mail_username = "trafico@dimensa.net";
  $mail_password = "913263240";
  $mail_port = "587"; 
 
-$empmailentrega_sender_name="dimensa@dimensa.net"					; 
+$empmailentrega_sender_name="trafico@dimensa.net"					; 
 
 #envia info
- $enviainfo_to = "dimensa@dimensa.net";
+ $enviainfo_to = "trafico@dimensa.net";
  //$enviainfo_to = "ventas@pes-systems.net";
  
- $enviainfo_from = "dimensa@dimensa.net";
+ $enviainfo_from = "trafico@dimensa.net";
  $enviainfo_host     = "mail.dimensa.net";
- $enviainfo_username = "dimensa@dimensa.net";
+ $enviainfo_username = "trafico@dimensa.net";
  $enviainfo_password = "913263240";
  $enviainfo__port    = 25;
  
